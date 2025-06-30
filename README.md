@@ -82,7 +82,7 @@ flowchart TD
 
 ## 📊 Results & Comparison
 
-### Single‑Image ("10.tif", 512 × 384)  fileciteturn0file0
+### Single‑Image ("10.tif", 512 × 384) 
 
 | Method           | Setting | Ratio     | PSNR (dB) | SSIM       | Time (ms) |
 | ---------------- | ------- | --------- | --------- | ---------- | --------- |
@@ -104,7 +104,7 @@ flowchart TD
 | DCT (Q = 60)       | 5.09       | 31.99          | 0.9242     | *200–400 ms* |
 | Wavelet (T = 30 %) | **3.21**   | **39.14**      | **0.9628** | *40–90 ms*   |
 
-#### Key Take‑aways  fileciteturn0file0
+#### Key Take‑aways  
 
 * **Wavelets excel** at low‑to‑moderate compression (≤ 4:1), delivering higher PSNR/SSIM and 4–6 × faster execution.
 * **DCT with perceptual quantisation** catches up at very high ratios (> 10:1) where low‑frequency preservation dominates.
@@ -121,6 +121,4 @@ flowchart TD
 ---
 
 ## 🔗 Useful Links
-
-* 👉 [Colab Notebook](https://colab.research.google.com/drive/1njkInhbnTG2teeEhI0Xu3A-J03LfHIqv?usp=sharing)
 * 🌐 [Streamlit Demo](https://codeneon-compression-techniques-app-4ksrti.streamlit.app/)
