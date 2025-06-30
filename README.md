@@ -13,11 +13,11 @@ This repository contains the source code, experiment notebooks, and report asset
 1. **DCT‑based compression (simplified JPEG)** – block‑wise 8 × 8 2‑D Discrete Cosine Transform followed by frequency‑dependent quantisation.
 2. **Wavelet‑based compression (simplified JPEG 2000)** – multi‑level 2‑D Discrete Wavelet Transform with adaptive coefficient thresholding.
 
-Both codecs are evaluated on selected **UCID** dataset images in terms of **compression ratio, objective quality (PSNR & SSIM), execution time, and subjective artefact analysis**.  fileciteturn0file0
+Both codecs are evaluated on selected **UCID** dataset images in terms of **compression ratio, objective quality (PSNR & SSIM), execution time, and subjective artefact analysis**.  
 
 ## 🎯 Goal
 
-*Implement, analyse, and contrast* DCT vs Wavelet approaches to identify which technique is preferable under different compression ratios and application constraints (speed, quality, and artefact tolerance).  fileciteturn0file0
+*Implement, analyse, and contrast* DCT vs Wavelet approaches to identify which technique is preferable under different compression ratios and application constraints (speed, quality, and artefact tolerance).  
 
 ---
 
@@ -122,3 +122,4 @@ flowchart TD
 
 ## 🔗 Useful Links
 * 🌐 [Streamlit Demo](https://codeneon-compression-techniques-app-4ksrti.streamlit.app/)
+* 🌐 [Dataset Link](https://www.kaggle.com/datasets/flamense160/ucid-dataset)
